@@ -1,0 +1,42 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets and environment variables
+.env
+.env.*
+*.key
+
+# Large and reproducible data
+data/raw/
+data/interim/
+data/processed/*.gpkg
+data/processed/*.duckdb
+data/processed/*.duckdb.wal
+
+# ArcGIS temporary and generated files
+maps/**/Index/
+maps/**/*.gdb/
+maps/**/*.lock
+*.sr.lock
+
+# Temporary system files
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ArcGIS logs
+maps/**/GpMessages/
+maps/**/ImportLog/
+
+# Accidental notebook-local data
+notebooks/data/
